@@ -1,0 +1,83 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Left Bell -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M24,18 C28,14 36,18 36,26 C28,26 22,24 24,18 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M20,15 L28,23"
+        android:strokeWidth="3"
+        android:strokeColor="#FFA000" />
+
+    <!-- Right Bell -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M72,18 C68,14 60,18 60,26 C68,26 74,24 72,18 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M76,15 L68,23"
+        android:strokeWidth="3"
+        android:strokeColor="#FFA000" />
+
+    <!-- Top Hammer/Button -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M44,14 L52,14 L52,22 L44,22 Z" />
+
+    <!-- Left Foot -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M26,78 L18,88 L26,90 L32,80 Z" />
+
+    <!-- Right Foot -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M70,78 L78,88 L70,90 L64,80 Z" />
+
+    <!-- Outer Clock Rim -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M48,20 C64.57,20 78,33.43 78,50 C78,66.57 64.57,80 48,80 C31.43,80 18,66.57 18,50 C18,33.43 31.43,20 48,20 Z" />
+
+    <!-- Inner Dial Face -->
+    <path
+        android:fillColor="#12141C"
+        android:pathData="M48,26 C61.25,26 72,36.75 72,50 C72,63.25 61.25,74 48,74 C34.75,74 24,63.25 24,50 C24,36.75 34.75,26 48,26 Z" />
+
+    <!-- Hour Markers -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M46.5,28 L49.5,28 L49.5,33 L46.5,33 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M46.5,67 L49.5,67 L49.5,72 L46.5,72 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M26,48.5 L31,48.5 L31,51.5 L26,51.5 Z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M65,48.5 L70,48.5 L70,51.5 L65,51.5 Z" />
+
+    <!-- Hour Hand (Pointing to ~10) -->
+    <path
+        android:strokeColor="#FFD700"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,50 L37,39" />
+
+    <!-- Minute Hand (Pointing to ~2) -->
+    <path
+        android:strokeColor="#00F2FE"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,50 L61,37" />
+
+    <!-- Center Pivot Pin -->
+    <path
+        android:fillColor="#00F2FE"
+        android:pathData="M48,46 C50.2,46 52,47.8 52,50 C52,52.2 50.2,54 48,54 C45.8,54 44,52.2 44,50 C44,47.8 45.8,46 48,46 Z" />
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Lucky",
+  "description": "The unified next-gen super app with 5 platform feeds, Super Admin Command Center, Enterprise Security & Encryption Vault, and Big-Tech Monetization Engine (Ad Network, VIP Subscriptions, Lucky Coin Gifting, Creator Payouts).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
